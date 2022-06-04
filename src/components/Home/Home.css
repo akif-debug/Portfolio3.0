@@ -1,0 +1,69 @@
+.home {
+	background: url(../../assets/hero-banner.png);
+	background-position: center;
+	background-size: cover;
+}
+.home .home-col:not(:last-child) {
+	transform: translateY(110px);
+}
+.home .home-h1 {
+	font-weight: 700;
+	font-size: 48px;
+	z-index: -1000;
+	line-height: 72px;
+	/*border: 1px solid red;*/
+}
+.home .home-btn {
+
+}
+.home .home-img {
+	width: 100%;
+	/*border: 1px solid red;*/
+}
+@media(max-width: 576px) {
+	.home .home-col:not(:last-child) {
+		transform: translateY(0px);
+		margin-bottom: 1rem;
+	}
+	.home .home-h1 {
+		font-size: 38px;
+		line-height: 65px;
+	}
+	.home .home-img {
+		width: 100%;
+	}
+}
+@media (min-width: 576px) and (max-width: 768px) {
+	.home .home-col:not(:last-child) {
+		transform: translateY(15px);
+	}
+	.home .home-h1 {
+		font-size: 28px;
+		line-height: 40px;
+	}
+}
+@media (min-width: 769px) and (max-width: 992px) {
+	.home .home-col:not(:last-child) {
+		transform: translateY(45px);
+	}
+	.home .home-h1 {
+		font-size: 38px;
+		line-height: 65px;
+	}
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+	.home .home-col:not(:last-child) {
+		transform: translateY(65px);
+	}
+	.home .home-h1 {
+		font-size: 42px;
+	}
+}
+@media (min-width: 1201px) and (max-width: 1440px) {
+	.home .home-col:not(:last-child) {
+		transform: translateY(55px);
+	}
+	.home .home-h1 {
+		/*font-size: 38px;*/
+	}
+}

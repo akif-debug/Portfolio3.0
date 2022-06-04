@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: Poppins !important;
+  background: var(--black-color);
+}
+html {
+  scroll-behavior: smooth;
+} 
+*::-webkit-scrollbar {
+  width: .5rem;
+}
+*::-webkit-scrollbar-track {
+  background: var(--primary-color);
+}
+*::-webkit-scrollbar-thumb {
+  background: #C4C4C4;
+}
+:root {
+  --black-color: #282828;
+  --white-color: #FFFFFF;
+  --primary-color: #3976c7;
+  --gray-color: #C4C4C4;
+}
+/*////////////////////////////////////////*/
+.primary-text {
+  color: var(--primary-color);
+}
+.resume-btn {
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: var(--black-color);
+  background: linear-gradient(90deg, #d76754, #fff600, #ff00f3, #0033ff, #ff00c4, #d76754);    
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-size: 400%;
+  animation: flowing 10s linear infinite;
+}
+.mYcontainer,
+.container {
+  width: 65% !important;
+  margin: auto !important;
+}
+@media(max-width: 480px) {
+}
+@media(max-width: 768px) {
+  .mYcontainer,
+  .container {
+    width: 100% !important;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  .mYcontainer,
+  .container {
+    width: 90% !important;
+  }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+  .mYcontainer,
+  .container {
+    width: 80% !important;
+    margin: auto;
+  }
+}
+/*Animation==========================*/
+@keyframes flowing {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 400%;
+  }
+}
