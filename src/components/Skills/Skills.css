@@ -1,0 +1,50 @@
+.skills {
+	padding-top: 6rem;
+}
+.graph-img {
+	background: #fce8e6;
+	padding: 50px 160px 50px 50px;
+	border-radius: 5rem;
+	width: 100%;
+	box-shadow: 0 3px 5px 0px rgba(186, 186, 186, 1.0);
+}
+.skills .skills_col .skills-h2 {
+	font-weight: 700;
+	font-size: 30px;
+	margin: 0 0 20px 0;
+	text-transform: capitalize;
+}
+.skills .skills_col .skills-para {
+	font-weight: 500;
+	font-size: 13px;
+}
+.skills .skills_col .skills-div {
+	display: flex;
+	flex-flow: wrap;
+}
+.skills .skills_col .skills-div .skills-box {
+	margin: 7px 0;
+	margin-right: 10px;
+	background: #fce8e6;
+	padding:  20px 50px;
+	border-radius: 1rem;
+	cursor: pointer;
+	transition: all .2s ease-in;
+}
+.skills .skills_col .skills-div .skills-box:hover {
+	box-shadow: 0 3px 5px 0px rgba(186, 186, 186, 1.0);
+}
+
+.skills .skills_col .skills-div .skills-box_h3 {
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	text-align: center;
+} 
+.skills .skills_col .skills-div .skills-box_p {
+	font-weight: 700;
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 0;
+}
